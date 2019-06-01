@@ -1,0 +1,5 @@
+#图片服务器地址前缀
+IMAGE_SERVER_URL=http://192.168.25.133/
+#IMAGE_SERVER_URL=http://tu21769812.iok.la/
+#首页轮播图固定ID
+AD1_LIST_ID=89

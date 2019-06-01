@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;e3-protal-web/src/main/resources/spring/Springmvc.xml&apos; to &apos;springmvc.xml&apos;" description="Rename resource &apos;Springmvc.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/spring/Springmvc.xml" name="springmvc.xml" stamp="1543110918145" updateReferences="true"/>
+</session>

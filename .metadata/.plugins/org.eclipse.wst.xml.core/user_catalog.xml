@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.springframework.org/schema/aop" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-aop-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/beans" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-beans-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/cache" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-cache-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/context" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-context-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jdbc" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-jdbc-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jee" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-jee-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jms" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-jms-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/lang" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-lang-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/mvc" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-mvc-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/oxm" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-oxm-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/task" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-task-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tool" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-tool-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tx" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-tx-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/util" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-util-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/websocket" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/spring-websocket-4.2.xsd"/>
+  <system systemId="http://code.alibabatech.com/schema/dubbo" uri="file:///F:/00JAVA/6第六阶段%20项目实战二/e3商城_day01/01.教案-3.0/01.参考资料/spring约束/dubbo.xsd"/>
+</catalog>

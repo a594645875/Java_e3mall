@@ -1,0 +1,43 @@
+package cn.e3mall.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cn.e3mall.mapper.TbItemMapper;
+import cn.e3mall.pojo.TbItem;
+import cn.e3mall.pojo.TbItemExample;
+import cn.e3mall.pojo.TbItemExample.Criteria;
+import cn.e3mall.service.ItemService;
+
+/**
+ * 商品管理Service
+ * <p>Title: ItemServiceImpl</p>
+ * <p>Description: </p>
+ * <p>Company: www.itcast.cn</p> 
+ * @version 1.0
+ */
+@Service
+public class ItemServiceImpl implements ItemService{
+	@Autowired
+	public TbItemMapper tbItemMapper;
+	
+	@Override
+	public TbItem getItemById(long itemId) {
+		//方法一根据主键查询
+		//TbItem tbItem = tbItemMapper.selectByPrimaryKey(itemId);
+		//方法二设置查询条件
+		TbItemExample example = new TbItemExample();
+		Criteria criteria = example.createCriteria();
+		//设置查询条件
+		criteria.andIdEqualTo(itemId);
+		//执行查询
+		List<TbItem> list = tbItemMapper.selectByExample(example);
+		if (null != list && list.size() > 0) {
+			return list.get(0);
+		}
+		return null;
+	}
+
+}
